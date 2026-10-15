@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "nowaterspread",
+  "version": "${version}",
+  "name": "NoWaterSpread",
+  "description": "Control water and lava spread.",
+  "authors": [
+    "FeiXiaoStudio"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FeiXiaoStudio",
+    "sources": "https://github.com/FeiXiaoStudio/FluidSpreadControl"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/nowaterspread/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.salamander.nowaterspread.NoWaterSpread"
+    ],
+    "client": [
+      "me.salamander.nowaterspread.NoWaterSpreadClient"
+    ]
+  },
+  "mixins": [
+    "nowaterspread.mixins.json",
+    {
+      "config": "nowaterspread.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
