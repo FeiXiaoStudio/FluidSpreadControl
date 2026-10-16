@@ -1,0 +1,180 @@
+{
+  "name": "FluidSpreadControl",
+  "ref": "mc/1.20.1-fabric-no-water-spread",
+  "kind": "branch",
+  "base_commit": "5ff628ee94e8817a84ef369e64d89391cfbde551",
+  "default_version_branch": "mc/1.20.1-fabric-disable-fluid-spread",
+  "branches": [
+    "mc/1.18.2-fabric-no-water-spread",
+    "mc/1.20.1-fabric-no-water-spread",
+    "mc/1.20.1-fabric-disable-fluid-spread"
+  ],
+  "snapshots": [],
+  "mappings": [
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/.gitattributes",
+      "target_prefix": ".gitattributes"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/.github/workflows/build.yml",
+      "target_prefix": ".github/workflows/build.yml"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/.gitignore",
+      "target_prefix": ".gitignore"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/LICENSE",
+      "target_prefix": "LICENSE"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/THIRD_PARTY_LICENSES/Fabric-template-CC0.txt",
+      "target_prefix": "THIRD_PARTY_LICENSES/Fabric-template-CC0.txt"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/THIRD_PARTY_NOTICES.md",
+      "target_prefix": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/build.gradle",
+      "target_prefix": "build.gradle"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/gradle.properties",
+      "target_prefix": "gradle.properties"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/gradle/wrapper/gradle-wrapper.jar",
+      "target_prefix": "gradle/wrapper/gradle-wrapper.jar"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/gradle/wrapper/gradle-wrapper.properties",
+      "target_prefix": "gradle/wrapper/gradle-wrapper.properties"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/gradlew",
+      "target_prefix": "gradlew"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/gradlew.bat",
+      "target_prefix": "gradlew.bat"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/settings.gradle",
+      "target_prefix": "settings.gradle"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/client/java/me/salamander/nowaterspread/NoWaterSpreadClient.java",
+      "target_prefix": "src/client/java/me/salamander/nowaterspread/NoWaterSpreadClient.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/client/java/me/salamander/nowaterspread/mixin/client/ExampleClientMixin.java",
+      "target_prefix": "src/client/java/me/salamander/nowaterspread/mixin/client/ExampleClientMixin.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/client/java/me/salamander/nowaterspread/mixin/client/MixinBucketItem.java",
+      "target_prefix": "src/client/java/me/salamander/nowaterspread/mixin/client/MixinBucketItem.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/client/java/me/salamander/nowaterspread/mixin/client/MixinGameRenderer.java",
+      "target_prefix": "src/client/java/me/salamander/nowaterspread/mixin/client/MixinGameRenderer.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/client/java/me/salamander/nowaterspread/mixin/client/MixinLevelRenderer.java",
+      "target_prefix": "src/client/java/me/salamander/nowaterspread/mixin/client/MixinLevelRenderer.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/client/java/me/salamander/nowaterspread/mixin/client/MixinLiquidBlock.java",
+      "target_prefix": "src/client/java/me/salamander/nowaterspread/mixin/client/MixinLiquidBlock.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/client/java/me/salamander/nowaterspread/mixin/client/MixinMultiPlayerGameMode.java",
+      "target_prefix": "src/client/java/me/salamander/nowaterspread/mixin/client/MixinMultiPlayerGameMode.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/client/resources/nowaterspread.client.mixins.json",
+      "target_prefix": "src/client/resources/nowaterspread.client.mixins.json"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/main/java/me/salamander/nowaterspread/NoWaterSpread.java",
+      "target_prefix": "src/main/java/me/salamander/nowaterspread/NoWaterSpread.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/main/java/me/salamander/nowaterspread/mixin/ExampleMixin.java",
+      "target_prefix": "src/main/java/me/salamander/nowaterspread/mixin/ExampleMixin.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/main/java/me/salamander/nowaterspread/mixin/GameRulesAccess.java",
+      "target_prefix": "src/main/java/me/salamander/nowaterspread/mixin/GameRulesAccess.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/main/java/me/salamander/nowaterspread/mixin/GameRulesBooleanValueAccess.java",
+      "target_prefix": "src/main/java/me/salamander/nowaterspread/mixin/GameRulesBooleanValueAccess.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/main/java/me/salamander/nowaterspread/mixin/MixinLavaFluid.java",
+      "target_prefix": "src/main/java/me/salamander/nowaterspread/mixin/MixinLavaFluid.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/main/java/me/salamander/nowaterspread/mixin/MixinWaterFluid.java",
+      "target_prefix": "src/main/java/me/salamander/nowaterspread/mixin/MixinWaterFluid.java"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/main/resources/assets/nowaterspread/icon.png",
+      "target_prefix": "src/main/resources/assets/nowaterspread/icon.png"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/main/resources/fabric.mod.json",
+      "target_prefix": "src/main/resources/fabric.mod.json"
+    },
+    {
+      "source_prefix": "1.20.1-fabric-no-water-spread/src/main/resources/nowaterspread.mixins.json",
+      "target_prefix": "src/main/resources/nowaterspread.mixins.json"
+    },
+    {
+      "source_prefix": "IMPORT_HISTORY.json",
+      "target_prefix": "IMPORT_HISTORY.json"
+    },
+    {
+      "source_prefix": "LICENSE",
+      "target_prefix": "docs/import-root/LICENSE"
+    },
+    {
+      "source_prefix": "README.md",
+      "target_prefix": "docs/import-root/README.md"
+    },
+    {
+      "source_prefix": "SOURCE_MAP.md",
+      "target_prefix": "docs/import-root/SOURCE_MAP.md"
+    },
+    {
+      "source_prefix": "THIRD_PARTY_NOTICES.md",
+      "target_prefix": "docs/import-root/THIRD_PARTY_NOTICES.md"
+    }
+  ],
+  "metadata": {
+    "name": "mc/1.20.1-fabric-no-water-spread",
+    "parent_commit": "5ff628ee94e8817a84ef369e64d89391cfbde551",
+    "rewrite_generated_docs": [
+      "README.md",
+      "SOURCE_MAP.md"
+    ],
+    "keep_source_bytes": true,
+    "exclude_other_version_directories": true,
+    "promote_to_root": true,
+    "mod_version": "1.0.0",
+    "source_prefix": "1.20.1-fabric-no-water-spread",
+    "minecraft_version": "1.20.1",
+    "shared_root_files": [
+      "IMPORT_HISTORY.json",
+      "LICENSE",
+      "README.md",
+      "SOURCE_MAP.md",
+      "THIRD_PARTY_NOTICES.md"
+    ],
+    "loader": "fabric",
+    "group": "mod",
+    "old_name": "mc/1.20.1-fabric-no-water-spread"
+  },
+  "collision_preservation": []
+}

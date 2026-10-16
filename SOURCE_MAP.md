@@ -1,13 +1,5 @@
-# Source map
+# Source provenance
 
-This private repository combines versions/variants of one gameplay project. Import/license commits use FeiXiaoStudio <201218585+FeiXiaoStudio@users.noreply.github.com>. Existing history and original authors remain attributed.
+This tree was reorganized from commit `5ff628ee94e8817a84ef369e64d89391cfbde551`. See [VERSION_LAYOUT.json](VERSION_LAYOUT.json) for exact source-to-destination mappings and version metadata. Original source maps and instructions remain in Git history and, when selected, under docs/original-layout/.
 
-| Repository path | Original workspace source | Ref |
-|---|---|---|
-| 1.18.2-fabric-no-water-spread | Mod/no_water_spread-1.18.2fabric | working tree |
-| 1.20.1-fabric-no-water-spread | Mod/no_water_spread-1.20.1fabric | working tree |
-| 1.20.1-fabric-disable-fluid-spread | Mod/disable_fluid_spread-1.20.1fabric | working tree |
-
-Only source, resources, project build scripts and Gradle wrapper tooling are imported. Generated caches, build outputs, run data, IDE files, bundled project ZIPs and nested Git stores are excluded.
-
-FeiXiaoStudio-authored contributions: All Rights Reserved. Original third-party materials retain their terms and credits. See each variant's THIRD_PARTY_NOTICES.md and THIRD_PARTY_LICENSES/.
+All original commits and author identities remain unchanged.
